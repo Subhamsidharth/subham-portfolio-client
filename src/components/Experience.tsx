@@ -1,12 +1,12 @@
 import { motion } from 'framer-motion';
 import { Download, Calendar, MapPin, Building } from 'lucide-react';
-import File from "../assets/pdf/SubhamSidharthaMahapatra-CV.pdf";
+import File from "../assets/pdf/Subham_Sidhartha_Mohapatra_Backend_Resume.pdf";
 
 const Experience = () => {
   const handleDownload = (): void => {
     const link = document.createElement("a");
     link.href = File;
-    link.download = "SubhamSidharthaMahapatra-CV.pdf";
+    link.download = "Subham_Sidhartha_Mohapatra_Backend_Resume.pdf";
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);

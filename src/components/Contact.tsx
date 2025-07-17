@@ -90,7 +90,7 @@ const Contact = () => {
     {
       icon: <Twitter size={24} />,
       name: "Twitter",
-      url: "https://twitter.com/ssmahapatra",
+      url: "https://x.com/SUBHAMSIDHARTH4",
       color: "hover:text-cyan-400"
     },
     {
